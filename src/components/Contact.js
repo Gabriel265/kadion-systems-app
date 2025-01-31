@@ -1,14 +1,16 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Container } from '@mui/material';
 
 const Contact = () => {
   return (
-    <div>
-      <Typography variant="h4">Contact Us</Typography>
+    <Container>
+      <Typography variant="h4" gutterBottom>
+        Contact Us
+      </Typography>
       <Typography variant="body1">+265-995-375-405</Typography>
       <Typography variant="body1">+265-887-171-231</Typography>
       <Typography variant="body1">kadionsystems@gmail.com</Typography>
-    </div>
+    </Container>
   );
 };
 
